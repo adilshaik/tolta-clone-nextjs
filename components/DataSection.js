@@ -1,3 +1,4 @@
+import Heading from './Headings/Headings'
 import dataSectionStyle from '../styles/DataSection.module.css'
 import Twitter from './platforms/Twitter'
 import Youtube from './platforms/Youtube'
@@ -11,16 +12,13 @@ import Clubhouse from './platforms/Clubhouse'
 const DataSection = () => {
   return (
     <section className={dataSectionStyle.data_section}>
-      <h1 className={dataSectionStyle.data_heading}>
-        Data from all over, in one place
-      </h1>
-      <p className={dataSectionStyle.data_description}>
-        Tolta currently tracks data from eight platforms.
-      </p>
-      <p className={dataSectionStyle.data_description}>
+      <Heading
+        heading='Data from all over, in one place'
+        paragraph='Tolta currently tracks data from eight platforms.'
+      >
         More are on the way, including Patreon, ConvertKit, EmailOctopus,
         Twitch, Simplecast and Revue.
-      </p>
+      </Heading>
       <div className={dataSectionStyle.data_platform}>
         <Twitter />
         <Youtube />
