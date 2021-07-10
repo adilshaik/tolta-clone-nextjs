@@ -160,8 +160,8 @@
 
 @media (max-width: 550px) {
   .data_platform {
-    max-width: 400px;
     margin: 2rem auto;
+    max-width: 400px;
   }
   .card {
     width: 100%;

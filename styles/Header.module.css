@@ -55,7 +55,7 @@
   }
 
   .header_image {
-    max-width: 80%;
     margin: 3rem auto;
+    max-width: 80%;
   }
 }
