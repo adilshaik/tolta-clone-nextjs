@@ -1,0 +1,13 @@
+.data_heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.data_description {
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+}
