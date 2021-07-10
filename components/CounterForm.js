@@ -1,5 +1,5 @@
 import counterFormStyle from '../styles/CounterForm.module.css'
-const counterForm = () => {
+const counterForm = ({ paragraph }) => {
   return (
     <article className={counterFormStyle.article}>
       <form className={counterFormStyle.form}>
@@ -10,9 +10,7 @@ const counterForm = () => {
           <button type='submit'>Create your first counter</button>
         </div>
       </form>
-      <div className={counterFormStyle.form_description}>
-        Free unlimited trial. No credit card required.
-      </div>
+      <div className={counterFormStyle.form_description}>{paragraph}</div>
     </article>
   )
 }
