@@ -4,8 +4,17 @@ const Headings = ({ heading, paragraph, children }) => {
   return (
     <>
       <h1 className={headingStyles.data_heading}>{heading}</h1>
-      <p className={headingStyles.data_description}>{paragraph}</p>
-      <p className={headingStyles.data_description}>{children}</p>
+
+      {paragraph != '' ? (
+        <p className={headingStyles.data_description}>{paragraph}</p>
+      ) : (
+        ''
+      )}
+      {children != '' ? (
+        <p className={headingStyles.data_description}>{children}</p>
+      ) : (
+        ''
+      )}
     </>
   )
 }

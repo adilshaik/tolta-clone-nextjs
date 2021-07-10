@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import Heading from '../components/Headings/Headings'
 import Header from '../components/Header'
 import CounterForm from '../components/CounterForm'
 import DataSection from '../components/DataSection'
 import Features from '../components/Features'
 import Pricing from '../components/Pricing'
+import counterFormStyle from '../styles/CounterForm.module.css'
 
 export default function Home({ features }) {
   return (
@@ -14,10 +16,14 @@ export default function Home({ features }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <CounterForm />
+      <CounterForm paragraph='Free unlimited trial. No credit card required.' />
       <DataSection />
       <Features features={features} />
       <Pricing />
+      <article className={counterFormStyle.text_center}>
+        <Heading heading='Get started' />
+        <CounterForm paragraph='Try a free 14-day trial. No credit card required.' />
+      </article>
     </>
   )
 }
