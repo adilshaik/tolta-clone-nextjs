@@ -51,3 +51,30 @@
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 492px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input {
+    margin-right: 0;
+  }
+
+  .input input {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .button button {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+
+  .form_description {
+    margin: 0;
+    text-align: center;
+  }
+}

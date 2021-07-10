@@ -42,3 +42,22 @@
   font-weight: 600;
   color: #858585;
 }
+
+@media (max-width: 760px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .feature {
+    width: 100%;
+  }
+}

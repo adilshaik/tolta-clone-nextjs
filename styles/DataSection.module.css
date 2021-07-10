@@ -146,3 +146,24 @@
   background-color: #e2dbb0;
   background-image: linear-gradient(180deg, #e2dbb0 0%, #fff 100%);
 }
+
+@media (max-width: 900px) {
+  .data_platform {
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .data_platform {
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  .card {
+    width: 100%;
+  }
+}

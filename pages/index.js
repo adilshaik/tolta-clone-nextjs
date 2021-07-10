@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Heading from '../components/Headings/Headings'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import CounterForm from '../components/CounterForm'
 import DataSection from '../components/DataSection'
 import Features from '../components/Features'
@@ -24,6 +25,7 @@ export default function Home({ features }) {
         <Heading heading='Get started' />
         <CounterForm paragraph='Try a free 14-day trial. No credit card required.' />
       </article>
+      <Footer />
     </>
   )
 }
