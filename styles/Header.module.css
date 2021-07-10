@@ -43,3 +43,19 @@
   font-size: 25px;
   color: #000;
 }
+
+@media (max-width: 882px) {
+  .header {
+    display: block;
+  }
+
+  .header_text {
+    max-width: 100%;
+    margin: 0 2rem;
+  }
+
+  .header_image {
+    max-width: 80%;
+    margin: 3rem auto;
+  }
+}
