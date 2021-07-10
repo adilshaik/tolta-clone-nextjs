@@ -1,6 +1,7 @@
+import Head from 'next/head'
 import Header from '../components/Header'
 import CounterForm from '../components/CounterForm'
-import Head from 'next/head'
+import DataSection from '../components/DataSection'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <CounterForm />
+      <DataSection />
     </>
   )
 }

@@ -1,0 +1,161 @@
+.data_section {
+  padding: 40px 0px;
+}
+
+.data_heading {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.data_description {
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.data_platform {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  width: 33.33333%;
+}
+
+.card_background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.card_heading {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card_icon {
+  position: absolute;
+  right: 1rem;
+  top: 1.25rem;
+  width: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.yes {
+  position: relative;
+}
+
+.yes::after {
+  content: '✓';
+  position: absolute;
+  top: 0px;
+  left: -2.5rem;
+  text-align: center;
+  width: 1rem;
+}
+
+/* Twitter */
+
+.card_twitter {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_twitter .card_background {
+  background-color: #a9ddfd;
+  background-image: linear-gradient(180deg, #a9ddfd 0%, #fff 100%);
+}
+
+/* Youtube */
+
+.card_youtube {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_youtube .card_background {
+  background-color: #ffafaf;
+  background-image: linear-gradient(180deg, #ffafaf 0%, #fff 100%);
+}
+
+/* Instagram */
+
+.card_instagram {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_instagram .card_background {
+  background-color: #ff9ac5;
+  background-image: linear-gradient(180deg, #ff9ac5 0%, #fff 100%);
+}
+
+/* ChartMogul */
+
+.card_chartMogul {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_chartMogul .card_background {
+  background-color: #aed0e6;
+  background-image: linear-gradient(180deg, #aed0e6 0%, #fff 100%);
+}
+/* Gumroad */
+
+.card_gumroad {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_gumroad .card_background {
+  background-color: #b1f5f4;
+  background-image: linear-gradient(180deg, #b1f5f4 0%, #fff 100%);
+}
+/* Paddle */
+
+.card_paddle {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_paddle .card_background {
+  background-color: #c1dcf3;
+  background-image: linear-gradient(180deg, #c1dcf3 0%, #fff 100%);
+}
+/* Ghost */
+
+.card_ghost {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_ghost .card_background {
+  background-color: #c6dc90;
+  background-image: linear-gradient(180deg, #c6dc90 0%, #fff 100%);
+}
+/* Clubhouse */
+
+.card_clubhouse {
+  position: relative;
+  padding: 1rem 1rem 2rem;
+}
+
+.card_clubhouse .card_background {
+  background-color: #e2dbb0;
+  background-image: linear-gradient(180deg, #e2dbb0 0%, #fff 100%);
+}
