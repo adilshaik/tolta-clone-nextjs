@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import CounterForm from '../components/CounterForm'
 import DataSection from '../components/DataSection'
 import Features from '../components/Features'
-// import image from '../public/images/feature-dashboard.png'
+import Pricing from '../components/Pricing'
 
 export default function Home({ features }) {
   return (
@@ -17,6 +17,7 @@ export default function Home({ features }) {
       <CounterForm />
       <DataSection />
       <Features features={features} />
+      <Pricing />
     </>
   )
 }
