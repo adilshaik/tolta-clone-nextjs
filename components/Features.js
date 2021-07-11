@@ -15,8 +15,8 @@ const Features = ({ features }) => {
               <div className={featuresStyle.feature_image_box}>
                 <Image
                   className={featuresStyle.feature_image}
-                  src={'/' + feature.image}
-                  alt='Picture of the author'
+                  src={feature.image}
+                  alt='Feature-picture'
                   height={500}
                   width={1100}
                 />
