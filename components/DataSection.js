@@ -1,6 +1,6 @@
 import Heading from './Headings/Headings'
 import dataSectionStyle from '../styles/DataSection.module.css'
-import Twitter from './platforms/Twitter'
+// import Twitter from './platforms/Twitter'
 import Youtube from './platforms/Youtube'
 import Instagram from './platforms/Instagram'
 import ChartMogul from './platforms/ChartMogul'
@@ -20,7 +20,7 @@ const DataSection = () => {
         Twitch, Simplecast and Revue.
       </Heading>
       <div className={dataSectionStyle.data_platform}>
-        <Twitter />
+        {/* <Twitter /> */}
         <Youtube />
         <Instagram />
         <ChartMogul />
