@@ -1,13 +1,13 @@
 import Heading from './Headings/Headings'
 import dataSectionStyle from '../styles/DataSection.module.css'
-// import Twitter from './platforms/Twitter'
-import Youtube from './platforms/Youtube'
-import Instagram from './platforms/Instagram'
-import ChartMogul from './platforms/ChartMogul'
-import Gumroad from './platforms/Gumroad'
-import Paddle from './platforms/Paddle'
-import Ghost from './platforms/Ghost'
-import Clubhouse from './platforms/Clubhouse'
+import Twitter from './Platforms/Twitter'
+import Youtube from './Platforms/Youtube'
+import Instagram from './Platforms/Instagram'
+import ChartMogul from './Platforms/ChartMogul'
+import Gumroad from './Platforms/Gumroad'
+import Paddle from './Platforms/Paddle'
+import Ghost from './Platforms/Ghost'
+import Clubhouse from './Platforms/Clubhouse'
 
 const DataSection = () => {
   return (
@@ -20,7 +20,7 @@ const DataSection = () => {
         Twitch, Simplecast and Revue.
       </Heading>
       <div className={dataSectionStyle.data_platform}>
-        {/* <Twitter /> */}
+        <Twitter />
         <Youtube />
         <Instagram />
         <ChartMogul />
